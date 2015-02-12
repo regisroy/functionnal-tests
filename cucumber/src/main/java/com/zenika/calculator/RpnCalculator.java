@@ -1,4 +1,4 @@
-package com.jcdecaux.calculator;
+package com.zenika.calculator;
 
 import java.util.Deque;
 import java.util.LinkedList;

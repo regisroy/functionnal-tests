@@ -1,4 +1,4 @@
-package com.jcdecaux.simple;
+package com.zenika.simple;
 
 public class Belly {
 	private int cukes;

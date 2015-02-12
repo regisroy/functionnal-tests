@@ -1,6 +1,6 @@
 package functional.simple;
 
-import com.jcdecaux.simple.Belly;
+import com.zenika.simple.Belly;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>tests-fonctionnels-digital-offer</artifactId>
-		<groupId>com.jcdecaux</groupId>
+        <groupId>com.zenika.test</groupId>
+        <artifactId>functionnal-tests</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 

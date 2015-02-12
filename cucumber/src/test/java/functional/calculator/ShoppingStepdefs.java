@@ -1,6 +1,6 @@
 package functional.calculator;
 
-import com.jcdecaux.calculator.RpnCalculator;
+import com.zenika.calculator.RpnCalculator;
 import cucumber.api.Transformer;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

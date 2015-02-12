@@ -1,6 +1,6 @@
 package functional.calculator;
 
-import com.jcdecaux.calculator.DateCalculator;
+import com.zenika.calculator.DateCalculator;
 import cucumber.api.Format;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
