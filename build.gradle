@@ -1,0 +1,42 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+
+allprojects {
+    version = '1.0'
+
+    buildDir = 'target'
+
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+
+    repositories {
+        maven {
+            url "http://maven.jcdecaux.com/content/groups/public"
+        }
+    }
+
+    dependencies {
+        testCompile "junit:junit:4.11"
+    }
+}
+
+dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+Closure cl = { task -> println "I'm $task.project.name" }
+task hello << cl
+project(':cucumber') {
+    task hello << cl
+}

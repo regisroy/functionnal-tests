@@ -1,0 +1,8 @@
+!contents -R2 -g -p -f -h
+ 
+Définit que le test doit être exécuté avec SLIM
+!define TEST_SYSTEM {slim}
+ 
+À adapter en fonction de chacun. Peut être un chemin relatif par rapport à la racine de Fitnesse.
+!path C:/Users/royr/projets/digital_offer/tests-fonctionnels-digital-offer/fitnesse/target/test-classes
+

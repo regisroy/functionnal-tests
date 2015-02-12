@@ -1,0 +1,13 @@
+!contents -R2 -g -p -f -h
+
+|Add two number                          |
+|first int|second int|result of addition?|
+|0        |1         |1                  |
+|2        |0         |2                  |
+|2        |3         |5                  |
+
+|Subtract an integer to another                   |
+|int to be subtracted|minus|result of subtraction?|
+|0                   |1    |-1                    |
+|4                   |2    |2                     |
+|3                   |1    |2                     |

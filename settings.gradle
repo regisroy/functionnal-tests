@@ -1,0 +1,4 @@
+rootProject.name = 'tests-fonctionnels-digital-offer'
+
+include 'cucumber', 'fitnesse'
+

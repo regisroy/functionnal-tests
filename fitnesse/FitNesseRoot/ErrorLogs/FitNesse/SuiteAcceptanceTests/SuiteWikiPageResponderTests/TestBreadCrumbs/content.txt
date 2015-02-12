@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 11:41:08 AM (CET) on mardi, novembre 18, 2014 |
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestBreadCrumbs|
+|'''Command: '''| !-"C:\Program Files\Java\jdk1.7.0_60\bin\java" -cp C:\Users\royr\.m2\repository\org\fitnesse\fitnesse\20140901\fitnesse-20140901.jar;classes;lib/*.jar fit.FitServer ALT7F015 52246 3863-! |
+|'''Exit code: '''| 31 |
+|'''Time elapsed: '''| 0.558 seconds |
+
