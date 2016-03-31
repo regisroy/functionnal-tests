@@ -33,3 +33,5 @@ Feature: Basic Arithmetic
 		| a | b | c |
 		| 10 | 20 | 35 |
 		| 20 | 30 | 55 |
+		| 20 | 37 | 57 |
+		
